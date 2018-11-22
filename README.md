@@ -1,2 +1,1 @@
-# Link heroku : https://starwarsmailer.herokuapp.com/
-* Si jamais vous clonez, pensez bien à `bundle install` `rails db:create` `rails db:migrate` puis `rails db:seed` ;)
+# Yo c'est le dernier projet on est content hihi enjoy et bon week-end : https://mailsdubonheur.herokuapp.com/
