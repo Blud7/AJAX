@@ -1,0 +1,25 @@
+<html>   
+    <head>
+        <%= render 'header' %>
+    </head>
+
+    <body>
+        <div class="container">    
+            <div class='mails'>
+            <h1>Mailbox</h1>
+                <% @emails.each do |f| %>
+                    <%= link_to email_path(f.id), remote: true do %>
+                            <div class="mailcontainer-one">
+                                Email n° <%= f.id %> <br>
+                                From: <%= f.sender %><br>
+                                <span id="new" class="attribute_<%= f.id %>">Non lu</span>
+                                <br>
+                            </div>
+                    <% end %>
+                <% end %>
+            </div>
+            <div id="read" style="display:none">
+            </div>
+        </div>
+    </body>
+</html>

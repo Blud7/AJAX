@@ -1,0 +1,3 @@
+$("#read").html("<%= j render(partial: 'show') %>").hide().fadeIn(900);
+
+$(".attribute_<%=@read_content.id %>").html("<%= j render(partial: 'update') %>");

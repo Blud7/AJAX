@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+ @import "bootstrap";
+
+.container {
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.mailcontainer-one {
+    border: solid 1px rgb(1, 1, 1);
+    background-color: #6CBEED;
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 5px 10px #888888;
+
+}
+
+.mailcontainer-two {
+    border: solid 1px rgb(1, 1, 1);
+    background-color: #F2D1C9;
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 5px 10px #888888;
+
+}
+
+.mails h1{
+    text-align: center;
+}
+
+.mails {
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: solid 5px rgb(37, 37, 37);
+    border-radius: 20px;
+    background-color: #F2D1C9;
+}
+
+.mails a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#read {
+    text-align: center;
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: solid 5px rgb(37, 37, 37);
+    border-radius: 20px;
+    background-color: #6CBEED;
+}
+
+
+.navbar {
+    color: white;
+    background-color: #E086D3 !important;
+    border-radius: 15px !important;
+    margin-top: 10px !important;
+}
